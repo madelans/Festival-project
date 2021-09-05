@@ -152,6 +152,9 @@ h2 {
   color: #fff;
 }
 
+p{
+  text-decoration: none;
+}
 
 
 
@@ -455,9 +458,265 @@ dv.event-details:nth-child(2){
   border: none;
 }
 div.event-details p {
-   margin-bottom: 20px;
+   
    font-size: 1rem;
+   margin-top: 30px;
+} 
+
+
+
+/**Artist section**/
+ul.artist-list li {
+  padding: 5px;
+  float: left;
 }
+
+@media only screen and (min-width:480px) {
+  ul.artist-list li {
+    width: 50%;
+  }
+}
+@media only screen and (min-width:768px) {
+  ul.artist-list li {
+    width: 32%;
+  }
+}
+
+/** Codigo nuevo de artitas **/
+
+/**Posible codigo que sea general 
+div.artist {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+} **/
+
+
+
+
+/**Hernan Cattaneo **/
+div.artist-hernan {
+  background-image: url(../img/Hernan.JPG);
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+.artist-info-hernan p{
+  display: none;
+  margin-top: 35%;
+  margin-left: 28%;
+  font-size: 1.2rem;
+  font-weight: 700;
+  -webkit-transition: all .5s ease-in-out;
+  color: #f2f2f2;
+  text-transform: uppercase;
+  overflow: hidden;
+  text-decoration: none;
+}
+.artist-hernan:hover > .artist-info-hernan {
+  background-color:rgba(14, 184, 196, 0.644);
+  width: 100%;
+  height: 360px;
+  -webkit-transition: all .6s ease;
+}
+.artist-hernan:hover > .artist-info-hernan p {
+  display: block;
+  position: absolute;
+  -webkit-transition: all .5s ease;
+}
+
+/**Nick Warren**/
+div.artist-nick {
+  background-image: url(../img/NickWarren.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+.artist-info-nick p{
+  display: none;
+  margin-top: 35%;
+  margin-left: 28%;
+  font-size: 1.2rem;
+  font-weight: 700;
+  -webkit-transition: all .5s ease-in-out;
+  color: #f2f2f2;
+  text-transform: uppercase;
+  overflow: hidden;
+  text-decoration: none;
+}
+.artist-nick:hover > .artist-info-nick {
+  background-color:rgba(138, 19, 129, 0.644);
+  width: 100%;
+  height: 360px;
+  -webkit-transition: all .6s ease;
+}
+.artist-nick:hover > .artist-info-nick p {
+  display: block;
+  position: absolute;
+  -webkit-transition: all .5s ease;
+}
+
+
+/**Mariano Mellino**/
+div.artist-mariano {
+  background-image: url(../img/Mariano-Mellino.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+.artist-info-mariano p{
+  display: none;
+  margin-top: 35%;
+  margin-left: 28%;
+  font-size: 1.2rem;
+  font-weight: 700;
+  -webkit-transition: all .5s ease-in-out;
+  color: #f2f2f2;
+  text-transform: uppercase;
+  overflow: hidden;
+  text-decoration: none;
+}
+.artist-mariano:hover > .artist-info-mariano {
+  background-color:rgba(242, 34, 72, 0.644);
+  width: 100%;
+  height: 360px;
+  -webkit-transition: all .6s ease;
+}
+.artist-mariano:hover > .artist-info-mariano p {
+  display: block;
+  position: absolute;
+  -webkit-transition: all .5s ease;
+}
+/** Guy J **/
+div.artist-guyj {
+  background-image: url(../img/guyj.webp);
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+.artist-info-guyj p{
+  display: none;
+  margin-top: 35%;
+  margin-left: 28%;
+  font-size: 1.2rem;
+  font-weight: 700;
+  -webkit-transition: all .5s ease-in-out;
+  color: #f2f2f2;
+  text-transform: uppercase;
+  overflow: hidden;
+  text-decoration: none;
+}
+.artist-guyj:hover > .artist-info-guyj {
+  background-color:rgba(242, 203, 5, 0.644);
+  width: 100%;
+  height: 360px;
+  -webkit-transition: all .6s ease;
+}
+.artist-guyj:hover > .artist-info-guyj p {
+  display: block;
+  position: absolute;
+  -webkit-transition: all .5s ease;
+}
+/** Eelke Kleijn **/
+div.artist-elke {
+  background-image: url(../img/Eelke_Kleijn.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+.artist-info-elke p{
+  display: none;
+  margin-top: 35%;
+  margin-left: 28%;
+  font-size: 1.2rem;
+  font-weight: 700;
+  -webkit-transition: all .5s ease-in-out;
+  color: #f2f2f2;
+  text-transform: uppercase;
+  overflow: hidden;
+  text-decoration: none;
+}
+.artist-elke:hover > .artist-info-elke {
+  background-color:rgba(27, 191, 161, 0.644);
+  width: 100%;
+  height: 360px;
+  -webkit-transition: all .6s ease;
+}
+.artist-elke:hover > .artist-info-elke p {
+  display: block;
+  position: absolute;
+  -webkit-transition: all .5s ease;
+}
+/** Nicolas Rada**/
+div.artist-nicolas {
+  background-image: url(../img/nicolas-rada.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+.artist-info-nicolas p{
+  display: none;
+  margin-top: 35%;
+  margin-left: 28%;
+  font-size: 1.2rem;
+  font-weight: 700;
+  -webkit-transition: all .5s ease-in-out;
+  color: #f2f2f2;
+  text-transform: uppercase;
+  overflow: hidden;
+  text-decoration: none;
+}
+.artist-nicolas:hover > .artist-info-nicolas {
+  background-color:rgba(58, 197, 118, 0.644);
+  width: 100%;
+  height: 360px;
+  -webkit-transition: all .6s ease;
+}
+.artist-nicolas:hover > .artist-info-nicolas p {
+  display: block;
+  position: absolute;
+  -webkit-transition: all .5s ease;
+}
+
+
+
+
+
+
 
 
 
