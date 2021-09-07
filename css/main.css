@@ -134,15 +134,16 @@ body {
   } 
 }
 .section {
-  padding: 100px 0;
+  padding: 50px 0;
   position: relative;
   background-color: #1d1d1d;
 }
 
 .section p {
-  font-size: 1.2rem;
+  font-size: 1rem;
   text-align: center;
-  color: #fff;
+  color: #f2f2f2;
+  margin: 20px;
 }
 h2 {
   font-family: 'Oswald', sans-serif;
@@ -712,11 +713,130 @@ div.artist-nicolas {
   -webkit-transition: all .5s ease;
 }
 
+/** Price section **/
+
+ul.price-list > li {
+  padding: 14px;
+  overflow: hidden;
+}
+.prices {
+  background-color: #1bbfa1;
+}
+@media only screen and (min-width:768px){
+  ul.price-list > li {
+    float: left;
+    width: 29%;
+  }
+}
+div.price-detail {
+  background-color: #b3d4fc;
+  padding: 60px 30px 60px 30px;
+  text-align: center;
+  transition: all .3s ease;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/**ticket **/
+p.ticket-title, i.fa-ticket-alt {
+  color: #f22248;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+i.fa-ticket-alt {
+  font-size: 2rem;
+}
+
+a.ticket {
+  background-color: #f22248;
+  text-decoration: none;
+  color: #f2f2f2;
+  border-radius: 3px;
+  padding: 12px 15px;
+  width: 50%;
+  margin-top: 5%;
+  #b3d4fc
+}
+/**ticket **/
+/**vip**/
+p.vip-title, i.fa-star {
+  color: #e9c200;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+i.fa-star {
+  font-size: 2rem;
+}
+
+a.vip {
+  background-color: #e9c200;
+  text-decoration: none;
+  color: #f2f2f2;
+  border-radius: 3px;
+  padding: 12px 15px;
+  width: 50%;
+  margin-top: 5%;
+  #b3d4fc
+}
+/**vip **/
+/**camping **/
+p.camping-title, i.fa-campground{
+  color: #3ac576;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+i.fa-campground {
+  font-size: 2rem;
+}
+
+a.camping {
+  background-color: #3ac576;
+  text-decoration: none;
+  color: #f2f2f2;
+  border-radius: 3px;
+  padding: 12px 15px;
+  width: 50%;
+  margin-top: 5%;
+  #b3d4fc
+}
+/**camping **/
 
 
 
+div.price-detail:hover {
+  transform: scale(1.1);
+  border: 1px solid #05f2cb;
+  box-shadow: 0px 0px 20px rgb(117, 115, 115);
+  border-radius: 6px;
+}
+div.price-detail ul li {
+  font-size: 1rem;
+  margin-bottom: 50px;
 
+}
 
+p.number {
+  margin: 5px 0;
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #222;
+
+}
+p.detail {
+  color: rgb(71, 71, 71);
+}
+
+a.ticket {
+  background-color: #f22248;
+  text-decoration: none;
+  color: #f2f2f2;
+  border-radius: 3px;
+  padding: 12px 15px;
+  width: 50%;
+  margin-top: 5%;
+  #b3d4fc
+}
 
 
 
