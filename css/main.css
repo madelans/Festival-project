@@ -760,7 +760,7 @@ a.ticket {
 }
 /**ticket **/
 /**vip**/
-p.vip-title, i.fa-star {
+h3.vip-title, i.fa-star {
   color: #e9c200;
   font-size: 1.3rem;
   font-weight: 700;
@@ -781,7 +781,7 @@ a.vip {
 }
 /**vip **/
 /**camping **/
-p.camping-title, i.fa-campground{
+h3.camping-title, i.fa-campground{
   color: #3ac576;
   font-size: 1.3rem;
   font-weight: 700;
@@ -838,9 +838,70 @@ a.ticket {
   #b3d4fc
 }
 
+/**Testimonials**/
+div.testimonials {
+  padding-bottom: 10px;
+}
+div.testimonial {
+  padding: 5px;
+  margin-left: 4%;
+}
+
+@media only screen and (min-width:768px) {
+  div.testimonial {
+    float: left;
+    width: 20%;
+  }
+}
+blockquote {
+  position: relative;
+  margin:  0 5% 1% 0;
+  padding-bottom: 10px;
+}
+blockquote.p {
+  text-align: justify !important;
+  font-size: 1rem !important;
+  padding: 0 20px 0 65px;
+}
+
+.img-testimonials {
+ display: flex;
+ flex-direction: row;
+ width: 100%;
+ margin-bottom: 5%;
+}
+img.img-testimonials {
+  width: 250px;
+  height: 180px;
+  object-fit: contain;
+}
 
 
-
+/**Newsletter**/
+div.newsletter {
+  position: relative;
+  height: auto;
+  background-image: url(../img/john-thomas-LtE6W_JVTGc-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+div.newsletter .content {
+  padding: 100px 0;
+  color: #b3d4fc;
+  text-align: center;
+  position: relative;
+}
+div.newsletter .content p {
+  font-size: 1.2rem;
+  text-transform: lowercase;
+}
+div.newsletter .content h3 {
+  color: #b3d4fc;
+  text-transform: lowercase;
+  font-size: 7vw;
+  font-family: 'PT Sans', sans-serif;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
