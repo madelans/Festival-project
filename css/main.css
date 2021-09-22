@@ -106,7 +106,7 @@ html {
 }
 **/
 body {
-  background-color: #1d1d1d;
+  background-color: #d1e2f8;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -134,30 +134,35 @@ body {
   } 
 }
 .section {
-  padding: 50px 0;
-  padding-bottom: 60px;
+  padding: 7% 0;
+  padding-bottom: 11%;
   position: relative;
-  background-color: #1d1d1d;
+  background-color: #d1e2f8;
 }
 
 .section p {
   font-size: 1rem;
   text-align: center;
-  color: #f2f2f2;
+  color: #222;
   margin: 20px;
 }
 h2 {
   font-family: 'Oswald', sans-serif;
-  font-size: 2rem;
+  font-size: 2.8rem;
   text-transform: uppercase;
   text-align: center;
-  color: #fff;
+  color: #1d1d1d;
+  margin-top: 0;
+  margin-bottom: 5%;
 }
 
 p{
   text-decoration: none;
 }
 
+ul {
+  list-style: none;
+}
 
 
 
@@ -469,7 +474,7 @@ div.event-details p {
 
 /**Artist section**/
 ul.artist-list li {
-  padding: 5px;
+  padding: 30px;
   float: left;
 }
 
@@ -480,7 +485,7 @@ ul.artist-list li {
 }
 @media only screen and (min-width:768px) {
   ul.artist-list li {
-    width: 32%;
+    width: 27%;
   }
 }
 
@@ -509,7 +514,8 @@ div.artist-hernan {
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  align-items: center; 
+  align-items: center;
+  border-radius: 5px; 
 }
 .artist-info-hernan p{
   display: none;
@@ -524,7 +530,7 @@ div.artist-hernan {
   text-decoration: none;
 }
 .artist-hernan:hover > .artist-info-hernan {
-  background-color:rgba(14, 184, 196, 0.644);
+  background-color:rgba(14, 184, 196, 0.829);
   width: 100%;
   height: 360px;
   -webkit-transition: all .6s ease;
@@ -547,6 +553,7 @@ div.artist-nick {
   display: flex;
   flex-direction: column;
   align-items: center; 
+  border-radius: 5px;
 }
 .artist-info-nick p{
   display: none;
@@ -561,7 +568,7 @@ div.artist-nick {
   text-decoration: none;
 }
 .artist-nick:hover > .artist-info-nick {
-  background-color:rgba(138, 19, 129, 0.644);
+  background-color:rgba(138, 19, 129, 0.829);
   width: 100%;
   height: 360px;
   -webkit-transition: all .6s ease;
@@ -584,6 +591,7 @@ div.artist-mariano {
   display: flex;
   flex-direction: column;
   align-items: center; 
+  border-radius: 5px;
 }
 .artist-info-mariano p{
   display: none;
@@ -598,7 +606,7 @@ div.artist-mariano {
   text-decoration: none;
 }
 .artist-mariano:hover > .artist-info-mariano {
-  background-color:rgba(242, 34, 72, 0.644);
+  background-color:rgba(242, 34, 72, 0.829);
   width: 100%;
   height: 360px;
   -webkit-transition: all .6s ease;
@@ -619,6 +627,7 @@ div.artist-guyj {
   display: flex;
   flex-direction: column;
   align-items: center; 
+  border-radius: 5px;
 }
 .artist-info-guyj p{
   display: none;
@@ -633,7 +642,7 @@ div.artist-guyj {
   text-decoration: none;
 }
 .artist-guyj:hover > .artist-info-guyj {
-  background-color:rgba(242, 203, 5, 0.644);
+  background-color:rgba(242, 203, 5, 0.829);
   width: 100%;
   height: 360px;
   -webkit-transition: all .6s ease;
@@ -654,6 +663,7 @@ div.artist-elke {
   display: flex;
   flex-direction: column;
   align-items: center; 
+  border-radius: 5px;
 }
 .artist-info-elke p{
   display: none;
@@ -668,7 +678,7 @@ div.artist-elke {
   text-decoration: none;
 }
 .artist-elke:hover > .artist-info-elke {
-  background-color:rgba(27, 191, 161, 0.644);
+  background-color:rgba(27, 191, 161, 0.829);
   width: 100%;
   height: 360px;
   -webkit-transition: all .6s ease;
@@ -689,6 +699,7 @@ div.artist-nicolas {
   display: flex;
   flex-direction: column;
   align-items: center; 
+  border-radius: 5px;
 }
 .artist-info-nicolas p{
   display: none;
@@ -703,7 +714,7 @@ div.artist-nicolas {
   text-decoration: none;
 }
 .artist-nicolas:hover > .artist-info-nicolas {
-  background-color:rgba(58, 197, 118, 0.644);
+  background-color:rgba(58, 197, 118, 0.829);
   width: 100%;
   height: 360px;
   -webkit-transition: all .6s ease;
@@ -717,11 +728,14 @@ div.artist-nicolas {
 /** Price section **/
 
 ul.price-list > li {
-  padding: 14px;
+  padding: 18px;
   overflow: hidden;
 }
 .prices {
-  background-color: #1bbfa1;
+  background-color: #20011d;
+}
+.prices>h2 {
+  color: #ccc;
 }
 @media only screen and (min-width:768px){
   ul.price-list > li {
@@ -734,10 +748,11 @@ div.price-detail {
   padding: 60px 30px 60px 30px;
   text-align: center;
   transition: all .3s ease;
-  border-radius: 6px;
+  border-radius: 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
+ 
 }
 /**ticket **/
 p.ticket-title, i.fa-ticket-alt {
@@ -753,11 +768,11 @@ a.ticket {
   background-color: #f22248;
   text-decoration: none;
   color: #f2f2f2;
-  border-radius: 3px;
-  padding: 12px 15px;
+  border-radius: 8px;
+  padding: 12px 10px;
   width: 50%;
   margin-top: 5%;
-  #b3d4fc
+
 }
 /**ticket **/
 /**vip**/
@@ -774,8 +789,8 @@ a.vip {
   background-color: #e9c200;
   text-decoration: none;
   color: #f2f2f2;
-  border-radius: 3px;
-  padding: 12px 15px;
+  border-radius: 8px;
+  padding: 12px 10px;
   width: 50%;
   margin-top: 5%;
   #b3d4fc
@@ -795,8 +810,8 @@ a.camping {
   background-color: #3ac576;
   text-decoration: none;
   color: #f2f2f2;
-  border-radius: 3px;
-  padding: 12px 15px;
+  border-radius: 8px;
+  padding: 12px 10px;
   width: 50%;
   margin-top: 5%;
   #b3d4fc
@@ -809,7 +824,7 @@ div.price-detail:hover {
   transform: scale(1.1);
   border: 1px solid #05f2cb;
   box-shadow: 0px 0px 20px rgb(117, 115, 115);
-  border-radius: 6px;
+  border-radius: 5%;
 }
 div.price-detail ul li {
   font-size: 1rem;
@@ -917,6 +932,30 @@ div.newsletter .content h3 {
   font-size: 1.5rem;
   font-weight: 700;
 }
+
+/**Regresive count**/
+
+.regresive-count ul li {
+  text-transform: uppercase;
+  font-family:;
+  font-size: 3rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+@media only screen and (min-width: 768px){
+  .regresive-count ul li {
+    width: 25%;
+    float: left;
+  }
+}
+
+
+
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
