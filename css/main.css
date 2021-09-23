@@ -494,15 +494,15 @@ hr {
   margin-left: 2%; 
 }
 .artist-description{
-  padding: 20px;
-  padding-right: 40%;
-  padding-bottom: 50px;
-  text-align: left;
+  padding: 10px;
+  padding-right: 25%;
+  padding-bottom: 30px;
+  text-align: center;
 }
 
 .artists.section {
   padding: 2%;
-  padding-bottom: 8%;
+  padding-bottom: 11%;
 }
 
 @media only screen and (min-width:480px) {
@@ -777,7 +777,7 @@ ul.price-list > li {
   background-color: rgba(139, 8, 151, 0.479); 
 }
 .prices.section {
-  padding: 4%;
+  padding: 5%;
 }
 .prices>h2 {
   color: #ccc;
@@ -785,7 +785,7 @@ ul.price-list > li {
 @media only screen and (min-width:768px){
   ul.price-list > li {
     float: left;
-    width: 26%;
+    width: 27%;
   }
 }
 div.price-detail {
@@ -1012,7 +1012,53 @@ div.newsletter .content h3 {
 }
 
 
+/** Footer **/
 
+footer {
+  background-color: #101010;
+  padding-top: 40px;
+  margin-top: 20px;
+}
+footer .content > div {
+  color: #b3d4fc;
+  padding: 0px 20px;
+  font-size: 12px;
+}
+@media only screen and (min-width:768px){
+  footer .content > div {
+      width: 33.3%;
+      float: left;
+  }
+}
+
+footer h3 {
+  color: #1bbfa1;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: 20px;
+}
+footer h3 span {
+  color: #1bbfa1;
+}
+footer .last-tweets li {
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+footer nav.social-media {
+  text-align: left;
+  color: #999;
+  font-size: 1rem;
+}
+p.copyright {
+  background-color: #1a1919;
+  color: #636363;
+  padding: 10px 0;
+  margin:20px 0 0 0;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+/
 
 
 
