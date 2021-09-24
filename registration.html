@@ -1,0 +1,187 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <LINK REL="StyleSheet" HREF="css/main.css" TYPE="text/css" media=screen>
+
+  <meta name="theme-color" content="#fafafa">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/e65e6d4300.js" crossorigin="anonymous"></script> 
+</head>
+
+<body>
+  <!--[if IE]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+  <!-- Add your site or application content here -->
+  
+ 
+
+   <!--Menu-->
+   <div class="menu">
+     <div class="content clearfix">
+       <!--<div class="logo">
+         <a href="index.html">
+           <img src="" alt="Wish logo">
+         </a>
+       </div>-->
+       <div class="movil-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+         </div>
+
+        <nav class="main-menu clearfix">
+          <a class="program" href="program.html">Program</a>
+          <a class="calendar" href="calendar.html">Calendar</a>
+          <a class="artist" href="artist.html">Artist</a>
+          <a class="artist" href="regiter.html">Get your ticket</a>
+        </nav>
+      </div>
+   </div>
+
+   <section class="section content">
+       <h2>You can register here</h2>
+       <form id="register" class="register" action="pagar.html" method="post">
+            
+            <!--#User_date-->
+            <div id="user_date" class="register box clearfix">
+               <div class="field">
+                   <label for="name">Name:</label>
+                   <input type="text" id="name" name="name" placeholder="Yor name">
+               </div>
+               <div class="field">
+                <label for="last_Name">Last Name:</label>
+                <input type="text" id="last_name:" name="lastName" placeholder="Yor last name">
+            </div>
+              <div class="field">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Yor email">
+            </div>
+            <div id="fail"></div>
+           </div> 
+           <!--#User_date-->
+
+           <div id="packs" class="packs">
+               <h3>Choose the amount you want</h3>
+               <ul class="price-list clearfix">
+                <li>
+                  <div class="price-detail">
+                   <i class="fas fa-ticket-alt"></i>
+                    <p class="ticket-title">TICKET</p>
+                    <p class="number">$50</p>
+                    <p class="detail">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna. </p>
+                    <div class="order">
+                        <label for="ticket">Number of Tickets</label>
+                        <input type="number" min="0" id="ticket" size="3" name="ticket[amount]" placeholder="0">
+                        <input type="hidden" value="30" name="tickets[one_day][price]">
+                    </div>
+                   </div>
+                 </li>
+               
+                <li>
+                 <div class="price-detail">
+                   <i class="fas fa-star"></i>
+                    <h3 class="vip-title">VIP</h3>
+                    <p class="number">$80</p>
+                    <p class="detail">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna. </p>
+                    <div class="order">
+                        <label for="vip">Number of Tickets VIP</label>
+                        <input type="number" min="0" id="vip" size="3" name="vip[amount]" placeholder="0">
+                        <input type="hidden" value="30" name="tickets[one_day][price]">
+                    </div>
+                 </div>
+               </li>
+             
+               <li>
+                 <div class="price-detail">
+                   <i class="fas fa-campground"></i>
+                    <h3 class="camping-title">CAMPING</h3>
+                    <p class="number">$120</p>
+                    <p class="detail">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna. </p>
+                    <div class="order">
+                        <label for="camping">Number of Camping</label>
+                        <input type="number" min="0" id="camping" size="3" name="camping[amount]" placeholder="0">
+                        <input type="hidden" value="30" name="tickets[one_day][price]">
+                    </div>
+                 </div>
+               </li>
+              </ul>
+           </div>
+           <!--#Packs-->
+
+       </form>
+   </section>
+
+
+
+ 
+ 
+ 
+ 
+ 
+   <footer class="site-footer">
+  <div class="content clearfix">
+      <div class="footer-information">
+          <h3>About <span>WISH Festival</span></h3>
+          <p>Praesent rutrum efficitur pharetra. Vivamus scelerisque pretium velit, id tempor turpis pulvinar et. Ut bibendum finibus massa non molestie. Curabitur urna metus, placerat gravida lacus ut, lacinia congue orci. Maecenas luctus mi at ex
+              blandit vehicula. Morbi porttitor tempus euismod.</p>
+      </div>
+      <div class="last-tweets">
+          <h3>Last<span>tweets</span></h3>
+          <a class="twitter-timeline" data-height="400" data-theme="light" data-link-color="#fe4918" href="https://twitter.com/JuanDevWP">Tweets by JuanDevWP</a>
+          <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
+      <div class="menu">
+          <h3>Social<span>media</span></h3>
+          <nav class="social-media">
+              <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          </nav>
+      </div>
+  </div>
+
+  <p class="copyright">
+       WISH Festival 2021
+  </p>
+
+</footer>
+
+
+
+
+
+
+
+
+  <script src="js/vendor/modernizr-3.8.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
