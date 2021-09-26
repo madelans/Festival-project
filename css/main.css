@@ -1058,9 +1058,111 @@ p.copyright {
   font-size: 0.9rem;
 }
 
-/
+/*Registro*/
 
+form.register h3 {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 40px 0 0 0;
+  font-size: 2rem;
+}
+form.register label {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+h4{
+  text-align: center;
+  text-transform: uppercase;
+  border-bottom: 2px solid #f22248;
+  padding-bottom: 10px;
+  font-size: 1.5rem;
+}
+div.box {
+  background-color: #e9c200;
+  border: 1px solid #e1e1e1;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 15px;
+} 
+div.field {
+  padding: 20px;
+}
+@media only screen and (min-width: 768px){
+  div.field {
+    float: left;
+    width: 30%;
+  }
+}
+div.packs .price-detail:hover {
+  transform: none;
+  box-shadow: none;
+}
+div.packs .price-detail input {
+  clear: both;
+  width: 100px;
+  margin: 10px auto 0 auto;
+  display: block;
+}
 
+/*resumen register */
+div.summary p {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+div.summary div.accessories {
+  float:inline-start;
+  width: 50%;
+  padding: 40px;
+  margin: 2%;
+}
+div.accessories div.order {
+  text-align: left;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+div.accessories div.order input {
+  margin: 10px 0 0 0;
+  width: 5%;
+  border-color: #e1e1;
+}
+#gift {
+  width: 12%;
+}
+div.summary div.total {
+  float: right;
+  width: 50%;
+  padding: 30px;
+}
+div.summary input {
+  display: block;
+  margin: 10px auto;
+}
+#product-list {
+  background-color: #e1e1e1;
+  padding: 20px;
+  display: none;
+}
+#total-summary {
+  text-align: center;
+  font-size: 2rem;
+  color: #3ac576;
+}
+input[disabled].button {
+  opacity: .5;
+}
+#fail {
+  clear: both;
+  padding: 20px;
+  text-align: center;
+  display: none;
+}
+label {
+  font-size: 1.3rem;
+  margin: 2%;
+  font-weight: 500;
+  color: #1d1d1d;
+}
 
 /* ==========================================================================
    Helper classes
