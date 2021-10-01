@@ -1,10 +1,22 @@
 (function() {
     "use strict";
+
     
      const gift= document.getElementById('gift');
 
 
+
     document.addEventListener('DOMContentLoaded', function(){
+
+        var map = L.map('map').setView([-34.563404, -58.431516], 16 );
+
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+}).addTo(map);
+
+L.marker([-34.563404, -58.431516]).addTo(map)
+    .bindPopup('WISH FESTIVAL 2021<br> find us here .')
+    .openPopup();
        //USERS DATE  
         let name= document.getElementById('name');
         let last_name= document.getElementById('last_name');
