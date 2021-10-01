@@ -29,6 +29,35 @@
 
         calculate.addEventListener('click', calculate_amounts);
 
+        name.addEventListener('blur', field_validate);
+        last_name.addEventListener('blur', field_validate);
+        email.addEventListener('blur', field_validate);
+        email.addEventListener('blur', email_validate);
+
+        function field_validate () {
+            if (this.value == '') {
+                divFail.style.display ='block';
+                divFail.innerHTML= 'This field is required';
+                this.style.border = '1px solid red';
+                divFail.style.border='1px solid red';
+            } else {
+                divFail.style.display='none';
+                this.style.border='1px solid #cccccc';
+            }
+        }
+        
+        function email_validate () {
+            if(this.value.indexOf('@') > -1) {
+                divFail.style.display='none';
+                this.style.border='1px solid #cccccc';
+            } else {
+                divFail.style.display ='block';
+                divFail.innerHTML= 'this field requires a valid email';
+                this.style.border = '1px solid red';
+                divFail.style.border='1px solid red';
+            }
+        }
+
 
         function calculate_amounts(event) {
             event.preventDefault();
