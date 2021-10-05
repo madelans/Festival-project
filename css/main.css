@@ -412,17 +412,17 @@ div.program-content {
     margin-left: 22%;
   }
 }
-nav.menu-program{
+nav.program-menu{
   width: 50%;
   margin-left: 20%;
 }
 @media only screen and (min-width: 768px) {
-  nav.menu-program {
+  nav.program-menu {
     display: table;
   }
 }
 
-nav.menu-program a {
+nav.program-menu a {
   display: block;
   text-align: center;
   color: #f2f2f2;
@@ -433,7 +433,7 @@ nav.menu-program a {
   /**position: relative; */
   padding-bottom: 10px;
 }
-nav.menu-program a.activo::after {
+nav.program-menu a.activo::after {
   position: absolute;
   content: '';
   left: 0;
@@ -445,11 +445,11 @@ nav.menu-program a.activo::after {
   bottom: -20px;
 }
 @media only screen and (min-width:768px) {
-  nav.menu-program a {
+  nav.program-menu a {
     display: table-cell;
   }
 }
-nav.menu-program a , div.event-details p {
+nav.program-menu a , div.event-details p {
   color: #fff;
   font-size: 1.5rem;
   margin-right: 10px;

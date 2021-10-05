@@ -133,3 +133,24 @@ L.marker([-34.563404, -58.431516]).addTo(map)
 
     }) //DOM CONTENT LOADED
 })();
+
+
+
+//PROGRAM
+
+
+    $('.program-event .event-details:first').show();
+    $('.program-menu a:first').addClass('activo');
+    $('#day2').hide();
+    
+
+    $('.program-menu a').on('click', function(){
+        $('.program-menu a').removeClass('activo');
+        $(this).addClass('activo');
+        $('div.ocultar').hide();
+        const enlace= $(this).attr('href');
+        $(enlace).fadeIn(1000);
+
+        return false;
+        
+    });
