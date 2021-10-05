@@ -135,6 +135,8 @@ L.marker([-34.563404, -58.431516]).addTo(map)
 })();
 
 
+$(function(){
+
 
 //PROGRAM
 
@@ -154,3 +156,16 @@ L.marker([-34.563404, -58.431516]).addTo(map)
         return false;
         
     });
+
+
+
+//Countdown 
+
+$('.regresive-count').countdown('2022/04/27 07:00:00', function(event) {
+    $('#day').html(event.strftime('%D'));
+    $('#hour').html(event.strftime('%H'));
+    $('#minute').html(event.strftime('%M'));
+    $('#second').html(event.strftime('%S'));
+});
+
+});
