@@ -137,6 +137,19 @@ L.marker([-34.563404, -58.431516]).addTo(map)
 
 $(function(){
 
+ //menu fixed
+ let windowHeight = $(window).height();
+ let barHeigth = $('.menu').innerHeight();
+ $(window).scroll(function(){
+     let scroll= $(window).scrollTop();
+     if (scroll> windowHeight) {
+         $('.menu').addClass('fixed');
+         $('body').css({ barHeigth:'px'})
+     } else {
+         $('.menu').removeClass('fixed');
+         $('body').css({'margin-top': '0px'})
+     }
+ })
 
 //PROGRAM
 
@@ -161,7 +174,7 @@ $(function(){
 
 //Countdown 
 
-$('.regresive-count').countdown('2022/04/27 07:00:00', function(event) {
+$('.regresive-count').countdown('2021/10/09 10:00:00', function(event) {
     $('#day').html(event.strftime('%D'));
     $('#hour').html(event.strftime('%H'));
     $('#minute').html(event.strftime('%M'));
