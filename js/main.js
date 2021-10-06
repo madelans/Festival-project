@@ -37,7 +37,11 @@ L.marker([-34.563404, -58.431516]).addTo(map)
         //SUMMARY
         let shirt= document.getElementById('event_shirt');
         let stickers= document.getElementById('stickers');
+      
 
+        if (document.getElementById('summary')) {
+
+       
 
         calculate.addEventListener('click', calculate_amounts);
 
@@ -116,7 +120,7 @@ L.marker([-34.563404, -58.431516]).addTo(map)
                 summary.style.display='block';
 
 
-               
+               }
             }
             
         }
@@ -149,7 +153,22 @@ $(function(){
          $('.menu').removeClass('fixed');
          $('body').css({'margin-top': '0px'})
      }
- })
+ });
+
+
+ //MENU RESPONSIVE
+ $('movile-menu').on('click', function(){
+     $('.main-menu').slideToggle();
+ });
+
+  let breakpoint= 768;
+  $(window).resize(function(){
+      if($(document).width() >=breakpoint) {
+          $('.main-menu').show();
+      } else {
+          $('.main-menu').hide();
+      }
+  });
 
 //PROGRAM
 
