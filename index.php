@@ -1,7 +1,7 @@
 <?php include_once 'includes\templates\header.php'; ?>
 
   <!--Description-->
-   <section class="section content">
+   <section class="section section-text content">
      <h2>The best electronic festival that you <strong>Wish</strong></h2>
      <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
    </section>
@@ -16,7 +16,7 @@
       <!--Video content-->
       <div class="video-content">
        <video class="video" autoplay="autoplay" loop="loop" muted defaultMuted playsinline  oncontextmenu="return false;"  preload="auto"  id="miVideo" width="100%">
-         <source src="../img/FestivalProject.mp4" type="video/mp4">
+         <source src="../Wish-Festival-Project/img/FestivalProject.mp4" type="video/mp4">
          <source src="../img/FestivalProject.webm" type="video/webm">
         </video>
       </div>
@@ -29,8 +29,8 @@
             <h2 class="event-program">Event Program</h2>
           
             <nav class="program-menu">
-             <a href="#day1">DAY 1</a>
-             <a href="#day2">DAY 2</a>
+             <a class="day-1" href="#day1">DAY 1</a>
+             <a class="day-2" href="#day2">DAY 2</a>
             </nav>
           <!--Day 1-->
           <div id="day1" class="event-details ocultar clearfix">
@@ -56,7 +56,7 @@
   
    <!--Artist section-->
 
-   <section class="artists section content">
+   <section class="artists section  section-artist  content">
      <h2>OUR MAGNIFICENT STAGE</h2>
      <hr>
      <p class="artist-description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. </p>
@@ -122,7 +122,7 @@
              <p class="ticket-title">TICKET</p>
              <p class="number">$50</p>
              <p class="detail">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna. </p>
-             <a href="#" class="button hollow ticket">Get Ticket</a>
+             <a href="#" class="button-price hollow ticket">Get Ticket</a>
             </div>
           </li>
         
@@ -132,7 +132,7 @@
              <h3 class="vip-title">VIP</h3>
              <p class="number">$80</p>
              <p class="detail">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna. </p>
-             <a href="#" class="button hollow vip">Become VIP</a>
+             <a href="#" class="button-price hollow vip">Become VIP</a>
           </div>
         </li>
       
@@ -142,7 +142,7 @@
              <h3 class="camping-title">CAMPING</h3>
              <p class="number">$120</p>
              <p class="detail">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna. </p>
-             <a href="#" class="button hollow camping">Want to Camp</a>
+             <a href="#" class="button-price hollow camping">Want to Camp</a>
           </div>
         </li>
       
@@ -185,10 +185,10 @@
       <div class="img-testimonial"></div>
     </div>
     <div class="img-testimonials">
-        <img src="../img/testimonial1.jpg" alt="testimonial one" width="100%">
-        <img src="../img/testimonial2.jpg" alt="testimonial Two" width="100%">
-        <img src="../img/testimonial3.jpg" alt="testimonial Three" width="100%">
-        <img src="../img/testimonial4.jpg" alt="testimonial For" width="100%">
+        <img src="../Wish-Festival-Project/img/testimonial1.jpg" alt="testimonial one" width="100%">
+        <img src="../Wish-Festival-Project/img/testimonial2.jpg" alt="testimonial Two" width="100%">
+        <img src="../Wish-Festival-Project/img/testimonial3.jpg" alt="testimonial Three" width="100%">
+        <img src="../Wish-Festival-Project/img/testimonial4.jpg" alt="testimonial For" width="100%">
     </div>
   </section>
 
