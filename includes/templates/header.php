@@ -68,7 +68,7 @@
 
         <nav class="main-menu clearfix">
           <a class="program" href="registration.php">Get your Ticket NOW</a>
-          <a class="calendar" href="calendar.html">Calendar</a>
+          <a class="calendar" href="calendar.php">Calendar</a>
           <a class="artist" href="artist.html">Artist</a>
         </nav>
       </div>
